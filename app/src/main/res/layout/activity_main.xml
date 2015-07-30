@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="4"
+        android:layout_alignParentTop="false"
+        android:background="@drawable/hipster"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="0.5">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="RECORD"
+                android:id="@+id/record"
+                android:minWidth="0dp"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:singleLine="false"
+                android:theme="@style/Platform.V14.AppCompat.Light"
+                android:textSize="@dimen/abc_action_bar_default_height_material"
+                android:textColor="@color/bright_foreground_inverse_material_light"
+                android:fontFamily="@string/abc_shareactionprovider_share_with_application"
+                android:alpha="0.7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="PLAY"
+                android:id="@+id/play"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:theme="@style/Platform.V14.AppCompat.Light"
+                android:textSize="@dimen/abc_action_bar_default_height_material"
+                android:textColor="@color/bright_foreground_inverse_material_light"
+                android:fontFamily="@string/abc_shareactionprovider_share_with_application"
+                android:alpha="0.7"
+                android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="POST"
+                android:id="@+id/post"
+                android:layout_weight="1"
+                android:theme="@style/Platform.V14.AppCompat.Light"
+                android:textSize="@dimen/abc_action_bar_default_height_material"
+                android:textColor="@color/bright_foreground_inverse_material_light"
+                android:fontFamily="@string/abc_shareactionprovider_share_with_application"
+                android:alpha="0.7"
+                android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="SYNC"
+                android:id="@+id/sync"
+                android:layout_weight="1"
+                android:theme="@style/Platform.V14.AppCompat.Light"
+                android:textSize="@dimen/abc_action_bar_default_height_material"
+                android:textColor="@color/bright_foreground_inverse_material_light"
+                android:fontFamily="@string/abc_shareactionprovider_share_with_application"
+                android:alpha="0.7"
+                android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
