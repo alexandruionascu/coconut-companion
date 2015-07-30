@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
     boolean uploaded = false;
 
     //Azure connection string
+    //Don't worry, I've already changed the key
     public static final String storageConnectionString =
             "DefaultEndpointsProtocol=http;" +
                     "AccountName=coconutaudio;" +
