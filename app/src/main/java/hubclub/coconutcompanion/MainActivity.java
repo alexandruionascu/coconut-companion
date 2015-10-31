@@ -41,11 +41,11 @@ public class MainActivity extends Activity {
 
     //Azure connection string
     //Don't worry, I've already changed the key
-    public static final String storageConnectionString =
-            "DefaultEndpointsProtocol=http;" +
-                    "AccountName=coconutaudio;" +
-                    "AccountKey=yvYXXgpref+0Sybs860DevelZUs+kvjDxlywU09DXffl78hEFLX/iWF2qFv4sMubfG42c6Z628vG6c0hbfkysw==";
 
+	//Who can stop me download your apk file from the google play?
+	//and decompile it... to obtain the key and play with it?
+
+					
     public static String pairKey = null;
 
     //keep a backup for url, because of the click event
